@@ -3,7 +3,7 @@ import { BASE_URL } from "../utils/constants";
 import { addFeed } from "../utils/feedSlice";
 import { useEffect } from "react";
 import axios from "axios";
-import { UserCard } from "./userCard";
+import { UserCard } from "./UserCard";
 
 export const Feed =() => {
   const feed=useSelector((store)=>store.feed);
